@@ -1,15 +1,49 @@
-### docure-button
+### docure-list
 
 ```js
-npm i @specialdoom/docure-button
+npm i @specialdoom/docure-list
 ```
 
 ### usage
 
 ```html
-<docure-button primary>Primary</docure-button>
-<docure-button secondary>Secondary</docure-button>
-<docure-button link>Link</docure-button>
+<docure-list>
+    <ul>
+      <li>
+        <h2>
+          Card title
+        </h2>
+        <p>
+          Description text
+        </p>
+        <div>
+          <docure-button secondary>Action</docure-button>
+        </div>
+      </li>
+      <li>
+        <h2>
+          Card title
+        </h2>
+        <p>
+          asdkhja askdj haskdjba skjdha skjdha ksjdhaks jdhask djhaskd jhaskdjhj askdjh aksdh aksjdh kashd
+        </p>
+        <div>
+          <docure-button secondary>Action</docure-button>
+        </div>
+      </li>
+      <li>
+        <h2>
+          Card title
+        </h2>
+        <p>
+          Description text
+        </p>
+        <div>
+          <docure-button secondary>Action</docure-button>
+        </div>
+      </li>
+    </ul>
+  </docure-list>
 ```
 
 ### example 
