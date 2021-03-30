@@ -54,7 +54,9 @@
 
   onMount(() => {
     const list = document.querySelector("docure-list");
+    console.log(list);
     const children = list.children;
+    console.log(children);
     const styleElement = document.createElement("style");
     styleElement.innerText = styleSheet;
     list.shadowRoot.appendChild(styleElement);

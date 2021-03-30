@@ -25,7 +25,7 @@ npm i @specialdoom/docure-list
           Card title
         </h2>
         <p>
-          asdkhja askdj haskdjba skjdha skjdha ksjdhaks jdhask djhaskd jhaskdjhj askdjh aksdh aksjdh kashd
+          Description text
         </p>
         <div>
           <docure-button secondary>Action</docure-button>
