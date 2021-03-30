@@ -1,4 +1,4 @@
-<svelte:options tag="docure-list" accessors={false} />
+<svelte:options tag="docure-list" />
 
 <script>
   import { onMount } from "svelte";
@@ -54,12 +54,10 @@
 
   onMount(() => {
     const list = document.querySelector("docure-list");
-    console.log(list);
-    const children = list.children;
-    console.log(children);
     const styleElement = document.createElement("style");
     styleElement.innerText = styleSheet;
     list.shadowRoot.appendChild(styleElement);
-    list.shadowRoot.appendChild(children[0]);
   });
 </script>
+
+<slot name="list" />
