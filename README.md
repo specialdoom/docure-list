@@ -45,7 +45,3 @@ npm i @specialdoom/docure-list
     </ul>
   </docure-list>
 ```
-
-### example 
-
-![Presentation](presentation.png)
