@@ -19,7 +19,3 @@ npm i @specialdoom/docure-list
     </docure-list-item>
   </docure-list>
 ```
-
-### example 
-
-![Presentation](presentation.png)
