@@ -6,8 +6,18 @@ npm i @specialdoom/docure-list
 
 ### components
 
-- _docure-list_ wrapper for _docure-list-item_
-- _docure-list-item_ to display title, description and and action related to the card
+#### docure-list
+
+- wrapper for docure-list-item
+
+#### docure-list-item
+
+- attributes:
+  - title:  string, max 30 chars
+  - description: string, max 330 chars
+
+- slots:
+  - one for displaying something despite the card like buttons or something else
 
 ### usage
 
