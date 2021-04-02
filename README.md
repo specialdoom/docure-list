@@ -8,41 +8,15 @@ npm i @specialdoom/docure-list
 
 ```html
 <docure-list>
-    <ul>
-      <li>
-        <h2>
-          Card title
-        </h2>
-        <p>
-          Description text
-        </p>
-        <div>
-          <docure-button secondary>Action</docure-button>
-        </div>
-      </li>
-      <li>
-        <h2>
-          Card title
-        </h2>
-        <p>
-          Description text
-        </p>
-        <div>
-          <docure-button secondary>Action</docure-button>
-        </div>
-      </li>
-      <li>
-        <h2>
-          Card title
-        </h2>
-        <p>
-          Description text
-        </p>
-        <div>
-          <docure-button secondary>Action</docure-button>
-        </div>
-      </li>
-    </ul>
+    <docure-list-item title="title" description="description">
+      <docure-button onClick="test()">Test button</docure-button>
+    </docure-list-item>
+    <docure-list-item title="title" description="description">
+      <docure-button onClick="test()">Test button</docure-button>
+    </docure-list-item>
+    <docure-list-item title="title" description="description">
+      <docure-button onClick="test()">Test button</docure-button>
+    </docure-list-item>
   </docure-list>
 ```
 
