@@ -10,7 +10,13 @@ npm i @specialdoom/docure-list
 
 - wrapper for docure-list-item
 
+- attributes:
+  - background: background color for list
+
+
 #### docure-list-item
+
+- item for docure list
 
 - attributes:
   - title:  string, max 30 chars

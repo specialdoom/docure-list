@@ -1,6 +1,12 @@
 <svelte:options tag="docure-list" />
 
-<div class="docure-list">
+<script>
+  export let background = "#4392f1";
+
+  const style = `background-color: ${background};`;
+</script>
+
+<div class="docure-list" {style}>
   <slot>
     <docure-list-item title="test" description="test">
       <button on:click={() => alert("test")}>Alert test</button>
@@ -17,7 +23,6 @@
     padding: 0;
     height: 440px;
     justify-self: center;
-    background-color: #4392f1;
     align-items: center;
   }
 </style>
