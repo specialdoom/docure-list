@@ -61,8 +61,7 @@
     margin: 15px 0px 0px 0px;
     font-weight: 300;
     font-size: 16px;
-    word-break: break-all;
-    word-wrap: pre-wrap;
+    text-align: center;
   }
 
   .docure-list-item div {
