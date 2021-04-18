@@ -1,18 +1,18 @@
 <svelte:options tag="docure-list-item" />
 
 <script>
-  import { onMount } from "svelte";
+  import { onMount } from 'svelte';
 
-  export let title = "";
-  export let description = "";
+  export let title = '';
+  export let description = '';
 
   onMount(() => {
     if (title.length > 30) {
       title = `${title.slice(0, 29)}...`;
     }
 
-    if (description.length > 330) {
-      description = `${description.slice(0, 329)}...`;
+    if (description.length > 280) {
+      description = `${description.slice(0, 280)}...`;
     }
   });
 </script>
@@ -26,9 +26,17 @@
 </div>
 
 <style>
+  :host {
+    flex: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4392f1;
+  }
+
   .docure-list-item {
-    height: 350px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     justify-self: center;
@@ -39,7 +47,7 @@
   }
 
   .docure-list-item h2 {
-    height: 20%;
+    height: 30%;
     margin: 0px;
     padding: 0px 0px 15px 0px;
     word-break: break-all;
@@ -49,7 +57,7 @@
   }
 
   .docure-list-item p {
-    height: 70%;
+    height: 60%;
     margin: 15px 0px 0px 0px;
     font-weight: 300;
     font-size: 16px;
